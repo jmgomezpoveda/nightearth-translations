@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="lang">es</string>
+
+    <string name="action_search">Buscar</string>
+    <string name="action_location">Ubicación actual</string>
+    <string name="action_camera">Cámara</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_refresh">Recargar</string>
+    <string name="action_removeads">Eliminar Anuncios</string>
+    <string name="action_sendfeedback">Enviar Comentarios</string>
+    <string name="action_about">Acerca De</string>
+
+    <string name="error">Error</string>
+    <string name="error_no_internet">No se puede obtener los mapas. Comprueba tu conexión a Internet e intenta de nuevo.</string>
+    <string name="error_slow_loading">La carga parece estar tardando mucho...</string>
+    <string name="error_no_permissions">No se ha podudo obtener la ubicación actual por permisos insuficientes.</string>
+
+    <string name="try_again">Intenta de Nuevo</string>
+    <string name="ok">De Acuerdo</string>
+
+    <string name="search_hint">Busca una ubicación</string>
+
+    <string name="location_searching_current">Obteniendo la ubicación aproximada...</string>
+    <string name="location_not_available">El proovedor de ubicación %1$s! no está disponible</string>
+    <string name="location_found_fine">Ubicación precisa encontrada</string>
+    <string name="location_found_coarse">Ubicación aproximada encontrada</string>
+    <string name="location_searching">Buscando ubicación</string>
+
+    <string name="about_app_descrip">Mapa de la Tierra de noche desde el espacio.</string>
+    <string name="about_app_credits_nightearth">La página web <a href="http://www.nightearth.com">Night Earth</a> y la aplicación son are © 2007-2015 <a href="http://www.dreamcoder.org">Jose Manuel Gómez Poveda</a>.</string>
+    <string name="about_app_credits_imagery">Los mapas © <a href="nasa.gov">NASA</a> 2000, 2012. El alojamiento web está proporcionado por <a href="https://x10hosting.com/">x10hosting</a>.</string>
+    <string name="about_app_credits_gdal">La librería <a href="http://www.gdal.org/">GDAL - Geospatial Data Abstraction Library</a> fue utilizada para la conversión de los mapas.</string>
+    <string name="about_app_credits_aurora">Los datos de la Aurora Boreal y Aurora Austral son proporcionados por <a href="http://www.noaa.gov/">NOAA - National Oceanic and Atmospheric Administration</a>.</string>
+    <string name="about_app_credits_daynight">La capa día/noche usa <a href="https://github.com/marmat/google-maps-api-addons">Google Maps API Addons</a>.</string>
+    <string name="about_app_credits_clouds">La capa de nubes es proporcionada por <a href="http://openweathermap.org">OpenWeatherMap</a>.</string>
+    <string name="about_app_contact">Contacto: <a href="mailto:support@dreamcoder.org">support@dreamcoder.org</a></string>
+    <string name="about_app_close">Cerrar</string>
+    <string name="about_app_moreapps">Más aplicaciones del desarrollador</string>
+
+    <string name="removeads">Por favor, apoya esta aplicación comprando la versión sin anuncios en Google Play.</string>
+    <string name="removeads_no">No, gracias</string>
+
+    <string name="googleplay_notsupported">Este dispositivo no está soportado.</string>
+    <string name="googleplay_mustbeinstalled">Google Play Services debe estar instalado.</string>
+
+    <string name="feedback_main">Por favor, dinos si te ha gustado esta aplicación o si tienes alguna sugerencia</string>
+    <string name="feedback_rate">Si te gusta usar %1$s, por favor tómate un momento para puntuar la aplicación. ¡Gracias por tu apoyo!</string>
+    <string name="feedback_bad_text">La aplicación puede ser mejorada\n(por favor, dinos qué podemos hacer para mejorarla)</string>
+    <string name="feedback_good_text">¡La aplicación es genial!\n(por favor, puntúala en Google Play)</string>
+    <string name="feedback_email_subject">"Comentarios de "</string>
+    <string name="feedback_email_bodytemplate">Estimado desarrollador de %1$s!,\n\n</string>
+    <string name="feedback_email_chooser">Enviar Comentarios:</string>
+    <string name="feedback_bad">Mal</string>
+    <string name="feedback_good">Bien</string>
+</resources>
