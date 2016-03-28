@@ -53,4 +53,6 @@
     <string name="feedback_email_subject">"Feedback for "</string>
     <string name="feedback_email_bodytemplate">Dear %1$s! developer,\n\n</string>
     <string name="feedback_email_chooser">Send Feedback:</string>
+    <string name="feedback_later">Later</string>
+    <string name="feedback_nothanks">No, thanks</string>
 </resources>

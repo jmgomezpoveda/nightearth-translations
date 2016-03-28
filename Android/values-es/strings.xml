@@ -53,4 +53,6 @@
     <string name="feedback_email_chooser">Enviar Comentarios:</string>
     <string name="feedback_bad">Mal</string>
     <string name="feedback_good">Bien</string>
+    <string name="feedback_later">Más tarde</string>
+    <string name="feedback_nothanks">No, gracias</string>
 </resources>
