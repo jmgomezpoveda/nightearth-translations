@@ -31,26 +31,20 @@ $lang['INDEX_BODY']        = '<p>Die Nacht der Erde Karte zeigt die Lichter, die
     <p>Die hellsten Bereiche der Erde sind die am meisten verstädterten, aber nicht unbedingt die bevölkerungsreichste (vergleiche Westeuropa mit China und Indien). Städte sind in der Regel an Küsten und Verkehrsnetze wachsen. Die Vereinigten Staaten Interstate Highway System erscheint als Gitter Anschluss der heller Punkte der Stadtzentren. In Russland ist die Transsibirische Eisenbahn eine dünne Linie, die sich von Moskau durch das Zentrum von Asien bis nach Wladiwostok. Der Nil, aus dem Assuan-Staudamm bis zum Mittelmeer, ist ein weiterer roter Faden durch einem ansonsten dunklen Raum.</p>
     <p>Einige Regionen bleiben dünn besiedelten und unbeleuchtet. Die Antarktis ist völlig dunkel. Die Innen Dschungel von Afrika und Südamerika sind meist dunkel. Wüsten in Afrika, Arabien, Australien, der Mongolei und den USA sind schlecht als gut beleuchtet (außer an der Küste und Flüsse), zusammen mit den borealen Wälder von Kanada und Russland, und die großen Berge des Himalaya.</p>
 	<p>Zwei Versionen der Bilder zur Verfügung:</p>
-	<ul><li>Der Haupt Bild der Erde in der Nacht (2012) wurde von gefangenen <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo">NASA</a> mit hilfe der Suomi National Polar-orbiting Partnership (Suomi NPP) satellit. Es über neun Tage in Anspruch nahm im April 2012 und 13 Tage im Oktober 2012, während 312 Umlaufbahnen in 824 Kilometer (512 Meilen), um die ganze Erde zu erfassen. Dieser Satellit nutzt die "Tag-Nacht-Band" von der Visible Infrared Imaging Radiometer Suite (VIIRS), die Licht in einem Wellenlängenbereich von grün erkennt bis nahen Infrarot-und Filtertechniken verwendet, um trübe Signale wie Gasfackeln, Polarlichter, Waldbrände, die Lichter der Stadt zu beobachten, und reflektierten Mondlicht.</li>
-	<li>Das <a href="showitem.php?item=night_map_earth">originalbild von 2000</a> wurde erstellt von <a href="http://www.nasa.gov" target="_blank">NASA</a> verwendung von daten aus der <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, ursprünglich entworfen, um Wolken durch das Mondlicht zu sehen.</li></ul>
-	<p>Die Tageslichtbilder von Google Maps (Karten und Satellitenansichten) vorgesehen sind auch für Referenz verfügbar. Die <a href="https://developers.google.com/maps/">Google Maps API</a> wurde für die Erstellung dieser Visualisierung.</p>
-	<p>Da die Karten von der NASA waren in einer anderen Projektion wie die von Google Maps erforderlich, die <a href="http://www.gdal.org/">GDAL - Geospatial Data Abstraction Library</a> bibliothek wurde für die umsetzung verwendet.</p>
+	<ul><li>Der Haupt Bild der Erde in der Nacht (2012) wurde von gefangenen <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo" target="_blank">NASA</a> mit hilfe der Suomi National Polar-orbiting Partnership (Suomi NPP) satellit. Es über neun Tage in Anspruch nahm im April 2012 und 13 Tage im Oktober 2012, während 312 Umlaufbahnen in 824 Kilometer, um die ganze Erde zu erfassen. Dieser Satellit nutzt die "Tag-Nacht-Band" von der Visible Infrared Imaging Radiometer Suite (VIIRS), die Licht in einem Wellenlängenbereich von grün erkennt bis nahen Infrarot-und Filtertechniken verwendet, um trübe Signale wie Gasfackeln, Polarlichter, Waldbrände, die Lichter der Stadt zu beobachten, und reflektierten Mondlicht.</li>
+	<li>Das <a href="showitem.php?item=night_map_earth" target="_blank">originalbild von 2000</a> wurde erstellt von <a href="http://www.nasa.gov" target="_blank">NASA</a> verwendung von daten aus der <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, ursprünglich entworfen, um Wolken durch das Mondlicht zu sehen.</li></ul>
+	<p>Die Tageslichtbilder von Google Maps (Karten und Satellitenansichten) vorgesehen sind auch für Referenz verfügbar. Die <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> wurde für die Erstellung dieser Visualisierung.</p>
+    <p>Die 3D-Karte wurde mit <a href="http://cesiumjs.org/" target="_blank">Cesium</a> über <a href="http://openlayers.org/" target="_blank">OpenLayers</a> und <a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a> erstellt. Dies nutzt bilder aus <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, und <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+	<p>Da die Karten von der NASA waren in einer anderen Projektion wie die von Google Maps erforderlich, die <a href="http://www.gdal.org/" target="_blank">GDAL - Geospatial Data Abstraction Library</a> bibliothek wurde für die umsetzung verwendet.</p>
 	<p>Während das originalbild bestand aus 87,970 bilder umfasst die karte ab 2012 349,525 bilder, daher das hinzufügen einer gesamtsumme von 437,495 bilder für diese Karte.</p>
     <p>Die detailgetreuen Abbildungen der Städte wurden von den Astronauten an Bord der Internationalen Raumstation gebracht. Diese wurden aus den erhaltenen worden <a href="http://eol.jsc.nasa.gov/" target="_blank">Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth"</a>.</p>
     <p>Weitere informationen können dem Earth Observatory Artikel erhältlich <a href="http://earthobservatory.nasa.gov/Study/Lights/" target="_blank">Bright Lights, Big City</a>, and <a href="http://visibleearth.nasa.gov/view_rec.php?id=1438" target="_blank">NASA\'s Visible Earth</a> website.</p>
     <p>Die Aurora Borealis und Aurora Australis (Northern Lights und Southern Lights) daten werden bereitgestellt durch <a href="http://www.noaa.gov/" target="_blank">NOAA - National Oceanic and Atmospheric Administration</a>.</p>
-    <p>Die tag/nacht überzug verwendet das <a href="https://github.com/marmat/google-maps-api-addons">Google Maps API Addons</a>.</p>
+    <p>Die tag/nacht überzug verwendet das <a href="https://github.com/marmat/google-maps-api-addons" target="_blank">Google Maps API Addons</a>.</p>
     <p>Die wolken schicht wird durch bereitgestellt <a href="http://openweathermap.org" target="_blank">OpenWeatherMap</a>.</p>
     <p>Eine gedruckte plakat mit dem bild oben ist für Kauf verfügbar <a href="http://www.freemaninstitute.com/nightearth.htm" target="_blank">The Freeman Institute</a>.</p>';
 $lang['LOADINGMAP'] = 'Karte wird geladen';
 $lang['CONTACT']    = 'Kontakt';
-
-// Google Earth
-$lang['GOOGLEEARTH_H1']    = 'Google Earth: Weltkarte in 3D';
-$lang['GOOGLEEARTH_BODY1'] = 'Jetzt können Sie die Bars in <cite>Salir de tapas</cite> innerhalb <cite>Google Earth</cite> zu sehen.';
-$lang['GOOGLEEARTH_BODY2'] = 'Um den Bars von <cite>Salir de tapas</cite> in <cite>Google Earth</cite> siehe:';
-$lang['GOOGLEEARTH_BODY3'] = 'klicken Sie hier, um die Standorte der Bars zu Google Earth hinzufügen';
-$lang['GOOGLEEARTH_BODY4'] = 'Wenn Sie nicht haben <cite>Google Earth</cite> installiert, können Sie es <b>zum kostenlosen Download</b>.';
 
 // showitem
 $lang['SHOWITEM_MOSTRECENT']       = 'jüngste Eintrag';
@@ -112,9 +106,9 @@ $lang['LINKS_ASSOCIATED']     = 'Assoziierte Websites';
 $lang['LINKS_WEBDEV']         = 'Web-Entwicklung';
 
 // Login
-$lang['LOGIN_ERR_IMG_VERIFY']     = 'Fehler: Der text entspricht nicht dem Bild.';
+$lang['LOGIN_ERR_IMG_VERIFY']     = 'Fehler: Der text entspricht nicht dem bild.';
 $lang['LOGIN_ERR_MISSING_FIELDS'] = 'Fehler: Fehlenden Felder in der Login-Daten.';
-$lang['LOGIN_ERR_DATABASE']       = 'Fehler beim Erstellen der Benutzer in der Datenbank.';
+$lang['LOGIN_ERR_DATABASE']       = 'Fehler beim erstellen der benutzer in der datenbank.';
 $lang['LOGIN_IDENTIFY']           = 'Identifizieren';
 $lang['LOGIN_LOGIN']              = 'Login';
 $lang['LOGIN_PASSWORD']           = 'Passwort';
@@ -125,7 +119,7 @@ $lang['LOGIN_SIGNED_IN_AS']       = 'Angemeldet als';
 $lang['LOGIN_GUEST']              = 'Als gast teilnehmen';
 $lang['LOGIN_AS_GUEST']           = 'als gast';
 $lang['LOGIN_NICK']               = 'Nick';
-$lang['LOGIN_CONFIRM_HUMAN']      = 'Bestätigen Sie sind Menschen durch das Kopieren des Textes des Bildes';
+$lang['LOGIN_CONFIRM_HUMAN']      = 'Bestätigen sie sind menschen durch das kopieren des textes des bildes';
 $lang['LOGIN_INTHEBOX']           = 'in the box';
 $lang['LOGIN_IDENTIFIED_AS']      = 'Sie sind angemeldet als';
 $lang['LOGIN_NOT_X']              = 'Not';

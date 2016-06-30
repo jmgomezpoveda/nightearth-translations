@@ -31,26 +31,20 @@ $lang['INDEX_BODY']        = '<p>夜晚的地球地图显示了夜间可视对�
     <p>地球上最亮的区域是城市化程度最高的，但不一定是人口最多的（比较欧洲与中国和印度西部）。城市往往沿着海岸线和交通网络的发展。美国州际公路系统显示为网格连接城市中心的明亮点。在俄罗斯，西伯利亚大铁路是一条细线从莫斯科在亚洲的中心，符拉迪沃斯托克伸展。尼罗河从阿斯旺大坝到地中海，是通过其他方式暗部区域的又一大主题。</p>
     <p>一些地区依然人烟稀少而熄灭。南极洲是完全黑暗的。非洲和南美洲的丛林内大多是黑暗的。在非洲，阿拉伯，澳大利亚，蒙古和美国沙漠是光线不足，以及（除沿海岸和河流），以及加拿大和俄罗斯的北方针叶林，以及喜马拉雅山的大山。</p>
 	<p>有两种版本的图像:</p>
-	<ul><li>地球在夜间的主图像（2012年）被抓获 <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo">NASA</a> 使用 Suomi National Polar-orbiting Partnership (Suomi NPP) 卫星. 花了九天之上2012年4月十三日2012年10月，在312轨道在824公里（512英里），捕捉到整个地球。该卫星使用的“天夜乐队” Visible Infrared Imaging Radiometer Suite (VIIRS), 检测光从绿色波长范围内的近红外线，并使用过滤技术来观察昏暗的信号，如气体耀斑，极光，森林火灾，城市的灯光，反射月光。</li>
-	<li><a href="showitem.php?item=night_map_earth">从2000年的原始图像</a> 被创造 <a href="http://www.nasa.gov" target="_blank">NASA</a> 使用从所述数据 <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, 最初设计在月光下，查看云。</li></ul>
-	<p>通过谷歌地图（地图和卫星视图）提供的日光图像，也可供参考。该 <a href="https://developers.google.com/maps/">Google Maps API</a> 用于创建此可视化。</p>
-	<p>正如美国航天局提供的地图是在一个不同的投影通过谷歌地图所需要的之一， <a href="http://www.gdal.org/">GDAL - Geospatial Data Abstraction Library</a> 库被用于转化。</p>
+	<ul><li>地球在夜间的主图像（2012年）被抓获 <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo" target="_blank">NASA</a> 使用 Suomi National Polar-orbiting Partnership (Suomi NPP) 卫星. 花了九天之上2012年4月十三日2012年10月，在312轨道在824公里，捕捉到整个地球。该卫星使用的“天夜乐队” Visible Infrared Imaging Radiometer Suite (VIIRS), 检测光从绿色波长范围内的近红外线，并使用过滤技术来观察昏暗的信号，如气体耀斑，极光，森林火灾，城市的灯光，反射月光。</li>
+	<li><a href="showitem.php?item=night_map_earth" target="_blank">从2000年的原始图像</a> 被创造 <a href="http://www.nasa.gov" target="_blank">NASA</a> 使用从所述数据 <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, 最初设计在月光下，查看云。</li></ul>
+	<p>通过谷歌地图（地图和卫星视图）提供的日光图像，也可供参考。该 <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> 用于创建此可视化。</p>
+    <p>3D地图已经通过<a href="http://cesiumjs.org/" target="_blank">Cesium</a>使用<a href="http://openlayers.org/" target="_blank">OpenLayers</a>和<a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>创建。这使用图像从<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, 和 <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+	<p>正如美国航天局提供的地图是在一个不同的投影通过谷歌地图所需要的之一， <a href="http://www.gdal.org/" target="_blank">GDAL - Geospatial Data Abstraction Library</a> 库被用于转化。</p>
 	<p>当原始图像包括了87.970的图像，从2012年的地图包括349.525图像，因此增加一个总计437.495图像这张地图。</p>
     <p>采取由宇航员登上国际空间站的城市的详细图像。这些已被从所获得的 <a href="http://eol.jsc.nasa.gov/" target="_blank">Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth"</a>.</p>
     <p>进一步的信息可从地球观测文章 <a href="http://earthobservatory.nasa.gov/Study/Lights/" target="_blank">明亮的灯光，大市</a>，并 <a href="http://visibleearth.nasa.gov/view_rec.php?id=1438" target="_blank">NASA\'s Visible Earth</a> 网站。</p>
     <p>从北极光和南极光（北极光和南部灯）数据的提供 <a href="http://www.noaa.gov/" target="_blank">NOAA - National Oceanic and Atmospheric Administration</a>.</p>
-    <p>日/夜叠加使用 <a href="https://github.com/marmat/google-maps-api-addons">Google Maps API Addons</a>.</p>
+    <p>日/夜叠加使用 <a href="https://github.com/marmat/google-maps-api-addons" target="_blank">Google Maps API Addons</a>.</p>
     <p>云层由提供 <a href="http://openweathermap.org" target="_blank">OpenWeatherMap</a>.</p>
     <p>与上面的图片印制海报可供购买的，在 <a href="http://www.freemaninstitute.com/nightearth.htm" target="_blank">The Freeman Institute</a>.</p>';
 $lang['LOADINGMAP'] = '加载地图';
 $lang['CONTACT']    = '联系';
-
-// Google Earth
-$lang['GOOGLEEARTH_H1']    = '谷歌地球：在3D世界地图';
-$lang['GOOGLEEARTH_BODY1'] = '您现在可以看到的图像 <cite>Night Earth</cite> 内 <cite>Google Earth</cite>.';
-$lang['GOOGLEEARTH_BODY2'] = '为了查看 <cite>Night Earth</cite> 图像放在 <cite>Google Earth</cite>:';
-$lang['GOOGLEEARTH_BODY3'] = '点击这里添加到“Google地球”的夜景照片';
-$lang['GOOGLEEARTH_BODY4'] = '如果你没有 <cite>Google Earth</cite> 安装后，你可以下载 <b>免费</b>。';
 
 // showitem
 $lang['SHOWITEM_MOSTRECENT']       = '最新条目';
