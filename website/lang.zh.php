@@ -8,7 +8,7 @@ $lang['ISOCODE'] = 'zh';
 
 // Main menu
 $lang['MAINMENU_MAP']       = '地图';
-$lang['MAINMENU_3D']        = '3D';
+$lang['MAINMENU_LEGACY']    = '2D';
 $lang['MAINMENU_TOP']       = '顶部';
 $lang['MAINMENU_NEWS']      = '新闻';
 $lang['MAINMENU_SITEMAP']   = '网站地图';
@@ -34,7 +34,8 @@ $lang['INDEX_BODY']        = '<p>夜晚的地球地图显示了夜间可视对�
 	<ul><li>地球在夜间的主图像（2012年）被抓获 <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo" target="_blank">NASA</a> 使用 Suomi National Polar-orbiting Partnership (Suomi NPP) 卫星. 花了九天之上2012年4月十三日2012年10月，在312轨道在824公里，捕捉到整个地球。该卫星使用的“天夜乐队” Visible Infrared Imaging Radiometer Suite (VIIRS), 检测光从绿色波长范围内的近红外线，并使用过滤技术来观察昏暗的信号，如气体耀斑，极光，森林火灾，城市的灯光，反射月光。</li>
 	<li><a href="showitem.php?item=night_map_earth" target="_blank">从2000年的原始图像</a> 被创造 <a href="http://www.nasa.gov" target="_blank">NASA</a> 使用从所述数据 <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, 最初设计在月光下，查看云。</li></ul>
 	<p>通过谷歌地图（地图和卫星视图）提供的日光图像，也可供参考。该 <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> 用于创建此可视化。</p>
-    <p>3D地图已经通过<a href="http://cesiumjs.org/" target="_blank">Cesium</a>使用<a href="http://openlayers.org/" target="_blank">OpenLayers</a>和<a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>创建。这使用图像从<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, 和 <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+    <p>3D地图已经通过<a href="http://cesiumjs.org/" target="_blank">Cesium</a>使用<a href="http://openlayers.org/" target="_blank">OpenLayers</a>和<a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>创建。这使用图像从<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="http://www.bing.com/maps/" target="_blank">Bing Maps</a>, 和 <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+    <p>Google和<a href="https://nominatim.openstreetmap.org/">Nominatim</a>通过<a href="https://github.com/jonataswalker/ol3-geocoder">ol3-geocoder</a>提供地理编码.</p>
 	<p>正如美国航天局提供的地图是在一个不同的投影通过谷歌地图所需要的之一， <a href="http://www.gdal.org/" target="_blank">GDAL - Geospatial Data Abstraction Library</a> 库被用于转化。</p>
 	<p>当原始图像包括了87.970的图像，从2012年的地图包括349.525图像，因此增加一个总计437.495图像这张地图。</p>
     <p>采取由宇航员登上国际空间站的城市的详细图像。这些已被从所获得的 <a href="http://eol.jsc.nasa.gov/" target="_blank">Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth"</a>.</p>

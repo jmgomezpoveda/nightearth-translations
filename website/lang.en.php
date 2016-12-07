@@ -8,7 +8,7 @@ $lang['ISOCODE'] = 'en';
 
 // Main menu
 $lang['MAINMENU_MAP']       = 'Map';
-$lang['MAINMENU_3D']        = '3D';
+$lang['MAINMENU_LEGACY']    = '2D';
 $lang['MAINMENU_TOP']       = 'Top';
 $lang['MAINMENU_NEWS']      = 'News';
 $lang['MAINMENU_SITEMAP']   = 'Site map';
@@ -33,8 +33,9 @@ $lang['INDEX_BODY']        = '<p>The Night Earth map shows the lights that are v
 	<p>Two versions of the images are available:</p>
 	<ul><li>The main image of the Earth at night (2012) was captured by <a href="http://earthobservatory.nasa.gov/?eocn=topnav&amp;eoci=logo" target="_blank">NASA</a> using the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite. It took over nine days in April 2012 and thirteen days in October 2012, during 312 orbits at 824 kilometers (512 miles) to capture the whole Earth. This satellite uses the “day-night band” of the Visible Infrared Imaging Radiometer Suite (VIIRS), which detects light in a range of wavelengths from green to near-infrared and uses filtering techniques to observe dim signals such as gas flares, auroras, wildfires, city lights, and reflected moonlight.</li>
 	<li>The <a href="showitem.php?item=night_map_earth" target="_blank">original image from 2000</a> was created by <a href="http://www.nasa.gov" target="_blank">NASA</a> using data from the <a href="http://www.ngdc.noaa.gov/dmsp/" target="_blank">Defense Meteorological Satellite Program (DMSP)</a>\'s <a href="http://thunder.msfc.nasa.gov/ols/" target="_blank">Operational Linescan System (OLS)</a>, originally designed to view clouds by moonlight.</li></ul>
-    <p>The daylight images provided by Google Maps (maps and satellite views) are also available for reference. The <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> was used for creating this visualisation.</p>
-    <p>The 3D map was created using <a href="http://cesiumjs.org/" target="_blank">Cesium</a> via <a href="http://openlayers.org/" target="_blank">OpenLayers</a> and <a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>. This uses imagery from <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>, and <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+    <p>The daylight images provided by Google Maps (maps and satellite views) are also available for reference. The <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> was used for creating the original visualisation.</p>
+    <p>The 3D map was created using <a href="http://cesiumjs.org/" target="_blank">Cesium</a> via <a href="http://openlayers.org/" target="_blank">OpenLayers</a> and <a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>. This uses imagery from <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="http://www.bing.com/maps/" target="_blank">Bing Maps</a>, and <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</p>
+    <p>Geocoding is provided by Google and <a href="https://nominatim.openstreetmap.org/">Nominatim</a> via <a href="https://github.com/jonataswalker/ol3-geocoder">ol3-geocoder</a>.</p>
 	<p>As the maps provided by NASA were in a different projection as the one required by Google Maps, the <a href="http://www.gdal.org/" target="_blank">GDAL - Geospatial Data Abstraction Library</a> library was used for the conversion.</p>
 	<p>While the original image consisted of 87.970 images, the map from 2012 comprises 349.525 images, therefore adding a grand total of 437.495 images for this map.</p>
     <p>The detailed images of the cities were taken by astronauts aboard the International Space Station. These have been obtained from the <a href="http://eol.jsc.nasa.gov/" target="_blank">Image Science and Analysis Laboratory, NASA-Johnson Space Center. "The Gateway to Astronaut Photography of Earth"</a>.</p>
