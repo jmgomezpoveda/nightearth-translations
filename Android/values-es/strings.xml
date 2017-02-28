@@ -25,17 +25,19 @@
     <string name="location_not_available">El proovedor de ubicación %1$s! no está disponible</string>
     <string name="location_found_fine">Ubicación precisa encontrada</string>
     <string name="location_found_coarse">Ubicación aproximada encontrada</string>
-    <string name="location_searching">Buscando ubicación</string>
+    <string name="location_searching">Buscando dirección</string>
+    <string name="location_not_found">Dirección no encontrada</string>
 
     <string name="about_app_descrip">Mapa de la Tierra de noche desde el espacio.</string>
     <string name="about_app_credits_nightearth">La página web <a href="http://www.nightearth.com">Night Earth</a> y la aplicación son are © 2007-2015 <a href="http://www.dreamcoder.org">Jose Manuel Gómez Poveda</a>.</string>
     <string name="about_app_credits_googlemaps">El <a href="https://developers.google.com/maps/">Google Maps API</a> ha sido empleado para crear esta visualización.</string>
-    <string name="about_app_credits_openlayers">El mapa en 3D ha sido creado usando <a href="http://cesiumjs.org/" target="_blank">Cesium</a> por medio de <a href="http://openlayers.org/" target="_blank">OpenLayers</a> y <a href="https://github.com/openlayers/ol3-cesium/" target="_blank">ol3-cesium</a>. Usa mapas de <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="http://www.bing.com/maps/" target="_blank">Bing Maps</a>, y <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</string>
+    <string name="about_app_credits_openlayers">El mapa en 3D ha sido creado usando <a href="http://cesiumjs.org/" target="_blank">Cesium</a> por medio de <a href="http://openlayers.org/" target="_blank">OpenLayers</a> y <a href="https://github.com/openlayers/ol-cesium/" target="_blank">ol-cesium</a>. Usa mapas de <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, <a href="http://www.thunderforest.com/" target="_blank">Thunderforest</a>, <a href="http://www.bing.com/maps/" target="_blank">Bing Maps</a>, y <a href="https://www.mapquest.com/" target="_blank">Mapquest</a>.</string>
     <string name="about_app_credits_imagery">Los mapas © <a href="nasa.gov">NASA</a> 2000, 2012. El alojamiento web está proporcionado por <a href="https://x10hosting.com/">x10hosting</a>.</string>
     <string name="about_app_credits_gdal">La librería <a href="http://www.gdal.org/">GDAL - Geospatial Data Abstraction Library</a> fue utilizada para la conversión de los mapas.</string>
     <string name="about_app_credits_aurora">Los datos de la Aurora Boreal y Aurora Austral son proporcionados por <a href="http://www.noaa.gov/">NOAA - National Oceanic and Atmospheric Administration</a>.</string>
     <string name="about_app_credits_daynight">La capa día/noche usa <a href="https://github.com/marmat/google-maps-api-addons">Google Maps API Addons</a>.</string>
     <string name="about_app_credits_clouds">La capa de nubes es proporcionada por <a href="http://openweathermap.org">OpenWeatherMap</a>.</string>
+    <string name="about_app_credits_crosswalk">Usando el motor de renderizado <a href="http://crosswalk-project.org">Crosswalk</a>.</string>
     <string name="about_app_contact">Contacto: <a href="mailto:support@dreamcoder.org">support@dreamcoder.org</a></string>
     <string name="about_app_close">Cerrar</string>
     <string name="about_app_moreapps">Más aplicaciones del desarrollador</string>
